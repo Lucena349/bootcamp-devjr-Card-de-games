@@ -1,0 +1,110 @@
+.body{
+    background-color: #CCCCCC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.container-tittle{
+    background-color: #210D25;
+    color: #fff;
+    width: 700px;
+    margin: auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.container-info{
+    background-color: #5C1D67;
+    border-radius: 10px;
+    width: 650px;
+    display: block;
+    margin: auto;
+}
+
+
+.games{
+    color: #FCCA23;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.subtittles{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.dev{
+    text-align: center;
+    font-size: 11px;
+    padding: 12px;
+
+}
+
+.dados{
+    text-align: center;
+    padding: 18px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+input{
+    padding: 5px;
+    border: 5;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+    width: 60%;
+    display: block;
+    margin: 15px auto;
+}
+
+.vote{
+    display: flex;
+    justify-content: center;
+}
+
+.esport{
+    background-color: #4063EF;
+    width: 25%;
+    margin: 20px;
+    border: 10px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.simul{
+    background-color: #4063EF;
+    width: 25%;
+    margin: 20px;
+    border: 10px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.estrat{
+     background-color: #4063EF;
+    width: 25%;
+    margin: 20px;
+    border: 10px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    background-color: #1D0C20;
+    color: #fff;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 10px;
+
+}
