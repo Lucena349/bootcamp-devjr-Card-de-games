@@ -1,10 +1,10 @@
-.body{
+.body {
     background-color: #CCCCCC;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
-.container-tittle{
+.container-tittle {
     background-color: #210D25;
     color: #fff;
     width: 700px;
@@ -13,9 +13,10 @@
     border-radius: 10px;
     font-weight: 500;
     background: linear-gradient(#210D25, #5C1D67);
+    
 }
 
-.container-info{
+.container-info {
     background-color: #5C1D67;
     border-radius: 10px;
     width: 660px;
@@ -25,7 +26,7 @@
 }
 
 
-.games{
+.games {
     color: #FCCA23;
     font-size: 30px;
     display: flex;
@@ -34,26 +35,26 @@
     text-align: center;
 }
 
-.subtittles{
+.subtittles {
     text-align: center;
     padding: 0 20px;
 }
 
-.dev{
+.dev {
     text-align: center;
     font-size: 11px;
     padding: 12px;
 
 }
 
-.dados{
+.dados {
     text-align: center;
     padding: 18px;
     font-weight: 500;
     font-size: 20px;
 }
 
-input{
+input {
     padding: 5px;
     border: 5;
     border-radius: 8px;
@@ -64,15 +65,15 @@ input{
     margin: 15px auto;
 }
 
-.vote{
+.vote {
     display: flex;
     justify-content: center;
 }
 
-.esport{
-    background:    
+.esport {
+    background:
         linear-gradient(#3F61EF, #67B5FB) padding-box,
-        linear-gradient(45deg,#2638DB,#332A8B ) border-box;
+        linear-gradient(45deg, #2638DB, #332A8B) border-box;
     width: 25%;
     margin: 20px;
     border: 10px solid transparent;
@@ -82,10 +83,10 @@ input{
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-.simul{
-    background:    
+.simul {
+    background:
         linear-gradient(#3F61EF, #67B5FB) padding-box,
-        linear-gradient(45deg,#2638DB,#332A8B ) border-box;
+        linear-gradient(45deg, #2638DB, #332A8B) border-box;
     width: 25%;
     margin: 20px;
     border: 10px solid transparent;
@@ -95,10 +96,10 @@ input{
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-.estrat{
-    background:    
+.estrat {
+    background:
         linear-gradient(#3F61EF, #67B5FB) padding-box,
-        linear-gradient(45deg,#2638DB,#332A8B ) border-box;
+        linear-gradient(45deg, #2638DB, #332A8B) border-box;
     width: 25%;
     margin: 20px;
     border: 10px solid transparent;
@@ -108,38 +109,56 @@ input{
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-button{
+button {
     background-color: #1D0C20;
     color: #fff;
     padding: 13px 25px;
     border: none;
     border-radius: 10px;
     font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00010a7c;
 }
 
 .container-img {
     width: 100%;
 }
 
-@media screen and (max-width: 620px){
-    html{
+
+@media screen and (max-width: 725px) {
+    html {
         font-size: 14px;
     }
-    .vote{
+
+    .vote {
         flex-direction: column;
-        width: 300%;
+        width: 100%;
     }
 
-    .flex{
+    .simul,.esport,.estrat{
+        width: 60%;
+        display: block;
+        margin: 15px auto; 
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .flex {
         width: 80%;
         padding: 10px;
         font-size: 0.9rem;
     }
 
-    button{
-        width: 100%;
+    button {
+        width: 80%;
         padding: 15px 20px;
         font-size: 150%;
-        
+
     }
+
 }
